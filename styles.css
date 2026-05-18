@@ -128,7 +128,7 @@
       position:relative;
       background:
       linear-gradient(rgba(0,0,0,.68),rgba(0,0,0,.78)),
-      url('https://images.unsplash.com/photo-1500382017468-9049fed747ef?q=80&w=1600&auto=format&fit=crop') center/cover;
+      url('campo/campo.png') center/cover;
     }
 
     .hero-content{
