@@ -453,7 +453,7 @@
 
         </div>
 
-        <form id="formulario">
+        <form id="form">
 
           <input
             type="text"
@@ -475,12 +475,14 @@
 
           <input
             type="text"
+            id="cep"
             placeholder="CEP"
             required
           >
 
           <input
             type="text"
+            id="rua"
             placeholder="Rua"
             required
           >
@@ -493,13 +495,22 @@
 
           <input
             type="text"
+            id="bairro"
             placeholder="Bairro"
             required
           >
 
           <input
             type="text"
+            id="cidade"
             placeholder="Cidade"
+            required
+          >
+
+          <input
+            type="text"
+            id="estado"
+            placeholder="Estado"
             required
           >
 
@@ -562,7 +573,7 @@
         <h4 class="membro-subtitle">Programação</h4>
         <div class="membros-grid">
           <div class="membro-card">
-            <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="Diego Alves de Oliveira">
+            <img src="equipe/Diego Alves de Oliveira.jpeg" alt="Diego Alves de Oliveira">
             <h4>Diego Alves de Oliveira</h4>
             <p>RA: 9211890</p>
           </div>
@@ -574,7 +585,7 @@
           </div>
 
           <div class="membro-card">
-            <img src="https://randomuser.me/api/portraits/men/90.jpg" alt="Robson Passos Martins">
+            <img src="equipe/Robson Passos Martins.jpeg" alt="Robson Passos Martins">
             <h4>Robson Passos Martins</h4>
             <p>RA: 926112715</p>
           </div>
@@ -646,25 +657,7 @@
 
   <!-- SCRIPT -->
 
-  <script>
-
-    const formulario =
-      document.getElementById('formulario');
-
-    formulario.addEventListener(
-      'submit',
-      function(e){
-
-        e.preventDefault();
-
-        alert(
-          'Solicitação enviada com sucesso!'
-        );
-
-      }
-    );
-
-  </script>
+  <script src="script.js"></script>
 
 </body>
 </html>
